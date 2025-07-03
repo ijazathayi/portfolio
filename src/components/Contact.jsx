@@ -18,25 +18,25 @@ const Contact = () => {
         <p>Get in touch</p>
         <div className='contactinf-sect'>
           <img src={img1} alt=""  width={"40px"} height={"40px"} />
-          <div>
-          <section>mobile</section>
-          <section>(+91)8754750458</section>
+          <div className='contact-inf-div'>
+          <section>mobile :</section>
+          <section className='ml-25'>(+91)8754750458</section>
           </div>
 
         </div>
         <div className='contactinf-sect'>
           <img src={img3} alt=""  width={"40px"} height={"40px"}/>
-          <div>
-          <section>address</section>
-          <section>No.4 paneerselvam Nagar, Tindivanam</section>            
+          <div className='contact-inf-div'>
+          <section>address :</section>
+          <section className='ml-25'>No.4 paneerselvam Nagar, Tindivanam</section>            
           </div>
 
         </div>
         <div className='contactinf-sect'>
           <img src={img2} alt=""  width={"40px"} height={"40px"}/>
-          <div>
-          <section>email</section>
-          <section>ijazathayi@gmail.com</section>            
+          <div className='contact-inf-div'>
+          <section>email :</section>
+          <section className='ml-25'>ijazathayi@gmail.com</section>            
           </div>
 
         </div>

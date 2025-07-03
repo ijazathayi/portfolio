@@ -47,9 +47,18 @@
     margin-left: 10px;
 }
 .contactinf-sect{
+  position: relative;
     display: flex;
+    height: 75px;
+    margin: 10px;
+}
+.contact-inf-div{
+  margin-left: 10px;
 }
 
+.ml-25{
+  margin-left: 25px;
+}
 
 
 
