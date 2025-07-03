@@ -1,0 +1,65 @@
+#resume-body-wrapper{
+    width: 98.8vw;
+    height: 450px;
+    background-color: white;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+
+}
+#resume-body {
+    width: 90vw;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 8px;
+    margin-top: 50px;
+}
+
+#comp1 {
+    width: 350px;
+    height: 100%;
+    grid-row: span 3 / span 3;
+    border: 1px solid black;
+    padding: 10px;
+
+}
+
+#comp2 {
+    width: 350px;
+    height: 100%;
+    grid-row: span 4 / span 4;
+    grid-column-start: 3;
+    border: 1px solid black;
+    padding: 10px;
+
+
+}
+
+#comp3 {
+    width: 350px;
+    height: 100%;
+    grid-row: span 2 / span 2;
+    grid-column-start: 5;
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 25px;
+
+}
+
+#comp4 {
+    width: 350px;
+    height: 100%;
+    grid-row: span 2 / span 2;
+    grid-column-start: 5;
+    grid-row-start: 3;
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 25px;
+}
+.exp-heading{
+    font-size: 25px;
+}
+.year-heading{
+    font-size: 18px;
+}

@@ -1,0 +1,22 @@
+#navbar-body{
+    width: auto;
+    position:sticky;
+    background-color: black;
+    
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+}
+li{
+    display: block;
+    padding: 10px;
+    width: 15%;
+    text-align: center;
+}
+li:hover{
+    background-color: white;
+    color: black ;
+}
