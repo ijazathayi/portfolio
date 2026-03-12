@@ -9,8 +9,6 @@ import Contact from "./components/Contact";
 import "./styles.css";
 import ScrollToTop from "./components/ScrollToTop";
 import calculator from "./components/tools/Calculator"
-import calculateAge from "./components/tools/Agecalculator"
-
 import { BrowserRouter, Routes, Route } from "react-router-dom"; 
 import Calculator from "./components/tools/Calculator";
 
