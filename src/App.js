@@ -8,8 +8,11 @@ import Two from "./components/Two";
 import Contact from "./components/Contact";
 import "./styles.css";
 import ScrollToTop from "./components/ScrollToTop";
+import calculator from "./components/tools/Calculator"
+import calculateAge from "./components/tools/Agecalculator"
 
 import { BrowserRouter, Routes, Route } from "react-router-dom"; 
+import Calculator from "./components/tools/Calculator";
 
 function App() {
   if ("scrollRestoration" in window.history) {
@@ -27,6 +30,8 @@ function App() {
           <Route path="/five" element={<Five />} />
           <Route path="/about" element={<Mypage />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/calculator" element={<Calculator />} />
+          <Route path="/agecalc" element={<calculateAge />} />
         </Routes>
       </BrowserRouter>
 
