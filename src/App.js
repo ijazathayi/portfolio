@@ -8,9 +8,11 @@ import Two from "./components/Two";
 import Contact from "./components/Contact";
 import "./styles.css";
 import ScrollToTop from "./components/ScrollToTop";
-import calculator from "./components/tools/Calculator"
 import { BrowserRouter, Routes, Route } from "react-router-dom"; 
 import Calculator from "./components/tools/Calculator";
+import calculateAge from "./components/tools/Agecalculator";
+import Camera from "./components/tools/Camera";
+import Webcam from "./components/tools/Webcam";
 
 function App() {
   if ("scrollRestoration" in window.history) {
@@ -29,7 +31,9 @@ function App() {
           <Route path="/about" element={<Mypage />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/calculator" element={<Calculator />} />
-          <Route path="/agecalc" element={<calculateAge />} />
+          <Route path="/camera" element={<Camera />} />
+          <Route path="/webcam" element={<Webcam />} />
+          <Route path="/agecalcuator" element={<calculateAge />} />
         </Routes>
       </BrowserRouter>
 

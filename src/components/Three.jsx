@@ -13,9 +13,9 @@ const Three = () => {
       <span id="three-head">PROJECTS</span> 
       <div id="three-carousel" className="three-carousel">
         <Link to="/calculator"  className='link-tools'>Calculator</Link>
-        <Link to="/agecalc" className='link-tools'>age calculator</Link>
-        <Link  className='link-tools'>Comming soon</Link>
-        <Link  className='link-tools'>Comming soon</Link>
+        <Link to="/camera" className='link-tools'>camera</Link>
+        <Link  to="/webcam" className='link-tools'>webcam (working)</Link>
+        <Link to="/agecalc" className='link-tools'>age calculator (working)</Link>
         <Link  className='link-tools'>Comming soon</Link>
         <Link  className='link-tools'>Comming soon</Link>
         <Link  className='link-tools'>Comming soon</Link>

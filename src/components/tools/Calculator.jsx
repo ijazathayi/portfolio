@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './css/calculator.css'
-import logo1 from '../assets/logo1.png'
+import logo1 from '../assets/logo1.png';
 import { Link } from 'react-router';
 
 
@@ -28,10 +28,7 @@ const Calculator = () => {
 
   return (<>
     <div id='calc-body'>
-              <Link to="/" >
-
-      <img src={logo1} width="200px" alt="img" style={{cursor:"pointer", left:"0px",top:"0", position:"absolute"}} />
-</Link>
+      <Link to="/" ><img src={logo1} width="200px" alt="img" style={{cursor:"pointer", left:"0px",top:"0", position:"absolute"}} /></Link>
       <div id="calc-content">
         <input id="inp-screen" value={inputValue} readOnly />
         <div id='but-body'>
