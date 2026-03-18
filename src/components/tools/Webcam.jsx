@@ -2,7 +2,7 @@ import React from 'react'
 import { useRef, useEffect, useState } from "react";
 import { Link } from "react-router";
 import logo1 from '../assets/logo1.png';
-
+import "./css/webcamera.css"
 
 
 const Webcam = () => {
@@ -20,16 +20,17 @@ const Webcam = () => {
       });
   }, []);
       return (
-    <div>
+    <div id='webcamera-body'>
       <Link to="/" ><img src={logo1} width="200px" alt="img" style={{cursor:"pointer", left:"0px",top:"0", position:"absolute"}} /></Link>
-              <video
+        <video
           ref={videoRef}
           autoPlay
           playsInline
           muted
+          id='webcamera-video'
           style={{ 
             width: 'auto', 
-            height: '120%', 
+            height: 'auto', 
             transform: "scaleX(-1)",
             filter: "sepia(80%), blur(2px), contrast(150%), grayscale(100%) ",
 

@@ -23,25 +23,24 @@ const Agecalculator = () => {
 
 
   return (
-    // <div style={{ textAlign: 'center', marginTop: '50px' }}>
-    //   <h2>Age Calculator</h2>
-    //   <input
-    //     type="date"
-    //     value={dob}
-    //     onChange={(e) => setDob(e.target.value)}
-    //     style={{ padding: '10px', fontSize: '16px' }}
-    //   />
-    //   <br /><br />
-    //   <button onClick={calculateAge} style={{ padding: '10px 20px' }}>
-    //     Calculate Age
-    //   </button>
-    //   {age !== null && (
-    //     <div style={{ marginTop: '20px', fontSize: '18px', color: '#333' }}>
-    //       You are <strong>{age}</strong> years old.
-    //     </div>
-    //   )}
-    // </div>
-    <div>hello</div>
+    <div style={{ textAlign: 'center', marginTop: '50px' }}>
+      <h2>Age Calculator</h2>
+      <input
+        type="date"
+        value={dob}
+        onChange={(e) => setDob(e.target.value)}
+        style={{ padding: '10px', fontSize: '16px' }}
+      />
+      <br /><br />
+      <button onClick={calculateAge} style={{ padding: '10px 20px' }}>
+        Calculate Age
+      </button>
+      {age !== null && (
+        <div style={{ marginTop: '20px', fontSize: '18px', color: '#333' }}>
+          You are <strong>{age}</strong> years old.
+        </div>
+      )}
+    </div>
   );
 };
 
